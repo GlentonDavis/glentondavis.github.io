@@ -1,7 +1,36 @@
 body {
   font-family: 'times new roman', arial, sans-serif;
   font-weight: 300;
-  background: url(MainMenu1024.png) repeat;}#wrapper {
+  font-size: 18px;
+  background-color: rgba(0,0,255,0.3);}#wrapper {
   width: 960px;
   margin: 20px auto;
+}
+img#puppy {
+	border: 1px solid grey;
+	border-radius: 99999999999px;
+	box-shadow: 10px 10px 5px grey;
+	padding: 20px;
+	float: right;
+}
+#favorites {
+	color: green;
+}
+#travel {
+	color: green;
+}
+#footer {
+  color: white;
+  margin: 20px auto;
+  text-align: center;
+}
+p, li {
+  line-height: 26px;
+}
+#wrapper {
+  background-color: rgba(0,255,0,0.3);
+  width: 960px;
+  height: 1000px
+  margin: 20px auto;
+  padding: 20px;
 }
